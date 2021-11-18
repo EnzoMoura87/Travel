@@ -138,13 +138,51 @@ body {
 }
 
 
-@media (min-width:426px) and (max-width:768px) {
+@media (min-width:681px) and (max-width:768px) {
     .container {
         padding: 0 20px;
     }
 
     .title {
         margin-top: 50px;
+    }
+}
+
+
+@media (min-width:426px) and (max-width:680px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .menu ul {
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+    }
+
+    .menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .title {
+        margin-top: 50px;
+    }
+
+    .title h1 {
+        font-size: 4em;
+        margin-bottom: 10px;
+    }
+
+    .title p {
+        font-size: 1em;
+    }
+
+    .button {
+        margin-top: 20px;
     }
 }
 
